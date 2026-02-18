@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact — Forest SD</title>
+    <meta name="description" content="Get in touch with Forest SD. Professional inquiries, collaborations, and general questions welcome.">
+    <link rel="canonical" href="https://forestsd-site.pages.dev/contact.html">
+    <meta property="og:title" content="Contact — Forest SD">
+    <meta property="og:description" content="Get in touch with Forest SD. Professional inquiries, collaborations, and general questions welcome.">
+    <meta property="og:url" content="https://forestsd-site.pages.dev/contact.html">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌲</text></svg>">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --green: #2d6a4f; --green-light: #40916c; --green-dark: #1b4332; --sand: #f5f0e8; --text: #1a1a1a; --text-light: #555; --accent: #52b788; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; background: var(--sand); color: var(--text); line-height: 1.6; min-height: 100vh; }
+        nav { background: var(--green-dark); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+        nav a { color: white; text-decoration: none; }
+        .nav-logo { font-size: 1.2rem; font-weight: 700; }
+        .nav-links { display: flex; gap: 1.5rem; }
+        .nav-links a { font-size: 0.95rem; opacity: 0.85; transition: opacity 0.2s; }
+        .nav-links a:hover { opacity: 1; }
+        .nav-toggle { display: none; background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; }
+        @media (max-width: 600px) {
+            .nav-toggle { display: block; }
+            .nav-links { display: none; flex-direction: column; position: absolute; top: 3rem; right: 1rem; background: var(--green-dark); padding: 1rem 1.5rem; border-radius: 0.5rem; gap: 1rem; z-index: 10; }
+            .nav-links.open { display: flex; }
+        }
+        .page-header { background: linear-gradient(135deg, var(--green-dark) 0%, var(--green) 100%); color: white; padding: 3rem 2rem; text-align: center; }
+        .page-header h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .page-header p { opacity: 0.8; font-size: 1.1rem; }
+        .content { max-width: 700px; margin: 0 auto; padding: 3rem 2rem; }
+        .section { margin-bottom: 3rem; }
+        .section h2 { font-size: 1.4rem; color: var(--green-dark); margin-bottom: 1rem; font-weight: 600; display: flex; align-items: center; gap: 0.5rem; }
+        .section p { color: var(--text-light); font-size: 1.05rem; margin-bottom: 1rem; }
+        .social-links { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 0.75rem; }
+        .social-link { display: flex; align-items: center; gap: 0.6rem; padding: 0.75rem 1rem; background: white; border-radius: 0.5rem; text-decoration: none; color: var(--text); border: 1px solid #e8e8e8; transition: all 0.2s; font-size: 0.95rem; }
+        .social-link:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(45, 106, 79, 0.1); transform: translateY(-1px); }
+        .social-link .icon { font-size: 1.2rem; width: 1.5rem; text-align: center; }
+        .email-link { display: inline-flex; align-items: center; gap: 0.5rem; background: var(--green); color: white; padding: 0.75rem 1.5rem; border-radius: 0.5rem; text-decoration: none; font-weight: 500; font-size: 1.05rem; transition: all 0.2s; }
+        .email-link:hover { background: var(--green-dark); transform: translateY(-1px); }
+        form { background: white; border: 1px solid #e8e8e8; border-radius: 0.75rem; padding: 1.5rem; }
+        .form-group { margin-bottom: 1.25rem; }
+        .form-group label { display: block; font-weight: 500; margin-bottom: 0.4rem; font-size: 0.95rem; color: var(--text); }
+        .form-group input, .form-group textarea { width: 100%; padding: 0.65rem 0.9rem; border: 1px solid #ddd; border-radius: 0.4rem; font-size: 1rem; font-family: inherit; background: var(--sand); transition: border-color 0.2s; }
+        .form-group input:focus, .form-group textarea:focus { outline: none; border-color: var(--accent); }
+        .form-group textarea { resize: vertical; min-height: 120px; }
+        .form-submit { background: var(--green); color: white; border: none; padding: 0.75rem 2rem; border-radius: 0.5rem; font-size: 1rem; font-weight: 500; cursor: pointer; transition: all 0.2s; }
+        .form-submit:hover { background: var(--green-dark); }
+        footer { text-align: center; padding: 2rem; color: var(--text-light); font-size: 0.85rem; border-top: 1px solid #e0ddd5; }
+        footer a { color: var(--green); text-decoration: none; }
+        .footer-links { margin-bottom: 0.75rem; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; }
+        @media (max-width: 480px) { .content { padding: 2rem 1.5rem; } .social-links { grid-template-columns: 1fr; } .page-header h1 { font-size: 1.8rem; } }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="nav-logo">🌲 Forest SD</a>
+        <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">☰</button>
+        <div class="nav-links">
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Get in Touch</h1>
+        <p>Professional inquiries, collaborations, and questions welcome</p>
+    </header>
+
+    <main class="content">
+
+        <div class="section">
+            <h2>📧 Email</h2>
+            <p>The best way to reach me is by email. I try to respond within a day or two.</p>
+            <a href="mailto:forestsd2026@gmail.com" class="email-link">📧 forestsd2026@gmail.com</a>
+        </div>
+
+        <div class="section">
+            <h2>💬 Send a Message</h2>
+            <form action="#" method="POST" onsubmit="event.preventDefault(); alert('Thanks for reaching out! This form is not yet connected — please email me directly at forestsd2026@gmail.com.');">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Your name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="What's this about?">
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+                </div>
+                <button type="submit" class="form-submit">Send Message</button>
+            </form>
+        </div>
+
+        <div class="section">
+            <h2>🔗 Social Media</h2>
+            <p>You can also find me on these platforms:</p>
+            <div class="social-links">
+                <a href="https://bsky.app/profile/forestsd.bsky.social" class="social-link" target="_blank" rel="noopener">
+                    <span class="icon">🦋</span> Bluesky
+                </a>
+                <a href="https://github.com/forest-sd" class="social-link" target="_blank" rel="noopener">
+                    <span class="icon">💻</span> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/forest-sd/" class="social-link" target="_blank" rel="noopener">
+                    <span class="icon">💼</span> LinkedIn
+                </a>
+                <a href="https://reddit.com/u/ForestSD_ai" class="social-link" target="_blank" rel="noopener">
+                    <span class="icon">🤖</span> Reddit
+                </a>
+                <a href="https://forestsd.wordpress.com" class="social-link" target="_blank" rel="noopener">
+                    <span class="icon">✍️</span> Blog
+                </a>
+                <a href="https://instagram.com/forestsd_ai" class="social-link" target="_blank" rel="noopener">
+                    <span class="icon">📸</span> Instagram
+                </a>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+            <a href="disclaimer.html">Disclaimer</a>
+        </div>
+        <p>© 2026 Forest SD · Made in San Diego 🌴</p>
+    </footer>
+
+</body>
+</html>

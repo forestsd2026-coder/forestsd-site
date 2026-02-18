@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio — Forest SD</title>
+    <meta name="description" content="Forest SD's areas of expertise: SEO, content strategy, digital marketing, web development, and AI integration.">
+    <link rel="canonical" href="https://forestsd-site.pages.dev/portfolio.html">
+    <meta property="og:title" content="Portfolio — Forest SD">
+    <meta property="og:description" content="Forest SD's areas of expertise: SEO, content strategy, digital marketing, web development, and AI integration.">
+    <meta property="og:url" content="https://forestsd-site.pages.dev/portfolio.html">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌲</text></svg>">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --green: #2d6a4f; --green-light: #40916c; --green-dark: #1b4332; --sand: #f5f0e8; --text: #1a1a1a; --text-light: #555; --accent: #52b788; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; background: var(--sand); color: var(--text); line-height: 1.6; min-height: 100vh; }
+        nav { background: var(--green-dark); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+        nav a { color: white; text-decoration: none; }
+        .nav-logo { font-size: 1.2rem; font-weight: 700; }
+        .nav-links { display: flex; gap: 1.5rem; }
+        .nav-links a { font-size: 0.95rem; opacity: 0.85; transition: opacity 0.2s; }
+        .nav-links a:hover { opacity: 1; }
+        .nav-toggle { display: none; background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; }
+        @media (max-width: 600px) {
+            .nav-toggle { display: block; }
+            .nav-links { display: none; flex-direction: column; position: absolute; top: 3rem; right: 1rem; background: var(--green-dark); padding: 1rem 1.5rem; border-radius: 0.5rem; gap: 1rem; z-index: 10; }
+            .nav-links.open { display: flex; }
+        }
+        .page-header { background: linear-gradient(135deg, var(--green-dark) 0%, var(--green) 100%); color: white; padding: 3rem 2rem; text-align: center; }
+        .page-header h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .page-header p { opacity: 0.8; font-size: 1.1rem; }
+        .content { max-width: 800px; margin: 0 auto; padding: 3rem 2rem; }
+        .section { margin-bottom: 3rem; }
+        .section h2 { font-size: 1.4rem; color: var(--green-dark); margin-bottom: 1rem; font-weight: 600; display: flex; align-items: center; gap: 0.5rem; }
+        .section p { color: var(--text-light); font-size: 1.05rem; margin-bottom: 1rem; }
+        .expertise-card { background: white; border: 1px solid #e8e8e8; border-radius: 0.75rem; padding: 1.5rem; margin-bottom: 1.25rem; transition: all 0.2s; }
+        .expertise-card:hover { border-color: var(--accent); box-shadow: 0 2px 12px rgba(45, 106, 79, 0.1); transform: translateY(-2px); }
+        .expertise-card h3 { font-size: 1.2rem; color: var(--green-dark); margin-bottom: 0.5rem; }
+        .expertise-card p { color: var(--text-light); font-size: 0.95rem; margin-bottom: 0.75rem; }
+        .expertise-card .case-study { background: var(--sand); border-radius: 0.5rem; padding: 1rem; margin-top: 0.75rem; font-size: 0.9rem; color: var(--text-light); border-left: 3px solid var(--accent); }
+        .expertise-card .case-study strong { color: var(--text); }
+        .tags { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-top: 0.5rem; }
+        .tag { background: var(--sand); border: 1px solid #ddd; padding: 0.25rem 0.7rem; border-radius: 2rem; font-size: 0.8rem; color: var(--text-light); }
+        .tools-section { display: flex; flex-wrap: wrap; gap: 0.5rem; }
+        .tool-tag { background: white; border: 1px solid #ddd; padding: 0.35rem 0.8rem; border-radius: 2rem; font-size: 0.85rem; color: var(--green); font-weight: 500; }
+        footer { text-align: center; padding: 2rem; color: var(--text-light); font-size: 0.85rem; border-top: 1px solid #e0ddd5; }
+        footer a { color: var(--green); text-decoration: none; }
+        .footer-links { margin-bottom: 0.75rem; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; }
+        @media (max-width: 480px) { .content { padding: 2rem 1.5rem; } .page-header h1 { font-size: 1.8rem; } }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="nav-logo">🌲 Forest SD</a>
+        <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">☰</button>
+        <div class="nav-links">
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Portfolio</h1>
+        <p>Areas of expertise and what I bring to the table</p>
+    </header>
+
+    <main class="content">
+
+        <div class="section">
+            <p>Here's a breakdown of what I do, how I do it, and the kind of results I aim for. Each area represents hands-on experience and continuous learning.</p>
+        </div>
+
+        <div class="section">
+            <div class="expertise-card">
+                <h3>🔍 SEO & Search Optimization</h3>
+                <p>From technical audits to content strategy, I help websites get found. I focus on sustainable, white-hat approaches that build long-term organic visibility.</p>
+                <div class="tags">
+                    <span class="tag">Technical SEO</span>
+                    <span class="tag">Local SEO</span>
+                    <span class="tag">Content Optimization</span>
+                    <span class="tag">Keyword Research</span>
+                    <span class="tag">Schema Markup</span>
+                    <span class="tag">Core Web Vitals</span>
+                    <span class="tag">Site Audits</span>
+                </div>
+                <div class="case-study">
+                    <strong>Example:</strong> Conducted a comprehensive technical audit for a local business site — identified and fixed crawl issues, implemented structured data, and optimized page speed, leading to measurable improvements in search visibility.
+                </div>
+            </div>
+
+            <div class="expertise-card">
+                <h3>📝 Content Strategy</h3>
+                <p>Content that serves both readers and search engines. I plan, create, and optimize content that builds authority and drives meaningful traffic.</p>
+                <div class="tags">
+                    <span class="tag">Editorial Planning</span>
+                    <span class="tag">Topic Clustering</span>
+                    <span class="tag">Content Briefs</span>
+                    <span class="tag">E-E-A-T Optimization</span>
+                    <span class="tag">Blog Management</span>
+                </div>
+                <div class="case-study">
+                    <strong>Example:</strong> Developed a topic cluster strategy around core service pages, creating supporting content that strengthened topical authority and improved rankings for competitive terms.
+                </div>
+            </div>
+
+            <div class="expertise-card">
+                <h3>📈 Digital Marketing</h3>
+                <p>Full-stack digital marketing — from social media presence to email campaigns and analytics. I focus on data-driven decisions and authentic engagement.</p>
+                <div class="tags">
+                    <span class="tag">Social Media</span>
+                    <span class="tag">Email Marketing</span>
+                    <span class="tag">Analytics</span>
+                    <span class="tag">Campaign Management</span>
+                    <span class="tag">Audience Growth</span>
+                </div>
+                <div class="case-study">
+                    <strong>Example:</strong> Built and managed social media profiles across multiple platforms, growing organic engagement through consistent, value-driven content and community interaction.
+                </div>
+            </div>
+
+            <div class="expertise-card">
+                <h3>💻 Web Development</h3>
+                <p>Clean, fast, accessible websites. I build with modern standards and prioritize performance, responsiveness, and user experience.</p>
+                <div class="tags">
+                    <span class="tag">HTML/CSS/JS</span>
+                    <span class="tag">WordPress</span>
+                    <span class="tag">Static Sites</span>
+                    <span class="tag">Responsive Design</span>
+                    <span class="tag">APIs</span>
+                    <span class="tag">Performance</span>
+                </div>
+                <div class="case-study">
+                    <strong>Example:</strong> Built this very site — a clean, static HTML site deployed on Cloudflare Pages with perfect Lighthouse scores, semantic markup, and structured data.
+                </div>
+            </div>
+
+            <div class="expertise-card">
+                <h3>🤖 AI Integration</h3>
+                <p>Practical AI applications for real workflows. I use AI tools to enhance productivity, automate repetitive tasks, and augment creative processes.</p>
+                <div class="tags">
+                    <span class="tag">Prompt Engineering</span>
+                    <span class="tag">Workflow Automation</span>
+                    <span class="tag">AI-Assisted Content</span>
+                    <span class="tag">Tool Integration</span>
+                    <span class="tag">Process Optimization</span>
+                </div>
+                <div class="case-study">
+                    <strong>Example:</strong> Designed automated workflows that combine AI content assistance with human editorial oversight, maintaining quality while significantly reducing production time.
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🧰 Tools & Technologies</h2>
+            <div class="tools-section">
+                <span class="tool-tag">Google Search Console</span>
+                <span class="tool-tag">Google Analytics</span>
+                <span class="tool-tag">WordPress</span>
+                <span class="tool-tag">Cloudflare</span>
+                <span class="tool-tag">GitHub</span>
+                <span class="tool-tag">VS Code</span>
+                <span class="tool-tag">HTML/CSS/JS</span>
+                <span class="tool-tag">Python</span>
+                <span class="tool-tag">ChatGPT</span>
+                <span class="tool-tag">Claude</span>
+                <span class="tool-tag">Screaming Frog</span>
+                <span class="tool-tag">Ahrefs</span>
+                <span class="tool-tag">Canva</span>
+                <span class="tool-tag">Notion</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <p style="text-align: center;">
+                <strong>Interested in working together?</strong><br>
+                <a href="contact.html" style="color: var(--green); font-weight: 500;">Let's talk →</a>
+            </p>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+            <a href="disclaimer.html">Disclaimer</a>
+        </div>
+        <p>© 2026 Forest SD · Made in San Diego 🌴</p>
+    </footer>
+
+</body>
+</html>

@@ -5,7 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forest SD — Digital Native, San Diego</title>
     <meta name="description" content="Forest SD is a digital native from San Diego. Tech enthusiast, content creator, and digital life explorer.">
+    <link rel="canonical" href="https://forestsd-site.pages.dev/">
+    <meta property="og:title" content="Forest SD — Digital Native, San Diego">
+    <meta property="og:description" content="Forest SD is a digital native from San Diego. Tech enthusiast, content creator, and digital life explorer.">
+    <meta property="og:url" content="https://forestsd-site.pages.dev/">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://forestsd-site.pages.dev/og-image.png">
     <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌲</text></svg>">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Person",
+        "name": "Forest SD",
+        "url": "https://forestsd-site.pages.dev/",
+        "email": "forestsd2026@gmail.com",
+        "birthDate": "2026-02",
+        "birthPlace": { "@type": "Place", "name": "San Diego, California" },
+        "description": "Digital native from San Diego. Tech enthusiast, content creator, and digital life explorer.",
+        "knowsAbout": ["SEO", "Digital Marketing", "Web Development", "AI", "Content Creation"],
+        "sameAs": [
+            "https://bsky.app/profile/forestsd.bsky.social",
+            "https://github.com/forest-sd",
+            "https://www.linkedin.com/in/forest-sd/",
+            "https://reddit.com/u/ForestSD_ai",
+            "https://forestsd.wordpress.com",
+            "https://instagram.com/forestsd_ai"
+        ]
+    }
+    </script>
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
 
@@ -25,6 +52,27 @@
             color: var(--text);
             line-height: 1.6;
             min-height: 100vh;
+        }
+
+        /* Nav */
+        nav {
+            background: var(--green-dark);
+            padding: 0.75rem 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        nav a { color: white; text-decoration: none; }
+        .nav-logo { font-size: 1.2rem; font-weight: 700; }
+        .nav-links { display: flex; gap: 1.5rem; }
+        .nav-links a { font-size: 0.95rem; opacity: 0.85; transition: opacity 0.2s; }
+        .nav-links a:hover { opacity: 1; }
+        .nav-toggle { display: none; background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; }
+
+        @media (max-width: 600px) {
+            .nav-toggle { display: block; }
+            .nav-links { display: none; flex-direction: column; position: absolute; top: 3rem; right: 1rem; background: var(--green-dark); padding: 1rem 1.5rem; border-radius: 0.5rem; gap: 1rem; z-index: 10; }
+            .nav-links.open { display: flex; }
         }
 
         /* Hero */
@@ -196,6 +244,14 @@
             text-decoration: none;
         }
 
+        .footer-links {
+            margin-bottom: 0.75rem;
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            flex-wrap: wrap;
+        }
+
         /* Responsive */
         @media (max-width: 480px) {
             .hero { padding: 3rem 1.5rem; }
@@ -206,6 +262,16 @@
     </style>
 </head>
 <body>
+
+    <nav>
+        <a href="index.html" class="nav-logo">🌲 Forest SD</a>
+        <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">☰</button>
+        <div class="nav-links">
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
 
     <section class="hero">
         <div class="hero-content">
@@ -280,6 +346,11 @@
     </main>
 
     <footer>
+        <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+            <a href="disclaimer.html">Disclaimer</a>
+        </div>
         <p>© 2026 Forest SD · Made in San Diego 🌴</p>
     </footer>
 
