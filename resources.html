@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resources — Forest SD</title>
+    <meta name="description" content="Curated tools and resources for SEO, content creation, web development, analytics, and digital marketing. Recommended by Forest SD.">
+    <link rel="canonical" href="https://forestsd-site.pages.dev/resources.html">
+    <meta property="og:title" content="Resources — Forest SD">
+    <meta property="og:description" content="Curated tools and resources for SEO, content creation, web development, analytics, and digital marketing.">
+    <meta property="og:url" content="https://forestsd-site.pages.dev/resources.html">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌲</text></svg>">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --green: #2d6a4f; --green-light: #40916c; --green-dark: #1b4332; --sand: #f5f0e8; --text: #1a1a1a; --text-light: #555; --accent: #52b788; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; background: var(--sand); color: var(--text); line-height: 1.6; min-height: 100vh; }
+        nav { background: var(--green-dark); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; position: relative; }
+        nav a { color: white; text-decoration: none; }
+        .nav-logo { font-size: 1.2rem; font-weight: 700; }
+        .nav-links { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-links > a { font-size: 0.95rem; opacity: 0.85; transition: opacity 0.2s; }
+        .nav-links > a:hover { opacity: 1; }
+        .nav-toggle { display: none; background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; }
+        @media (max-width: 600px) {
+            .nav-toggle { display: block; }
+            .nav-links { display: none; flex-direction: column; position: absolute; top: 3rem; right: 1rem; background: var(--green-dark); padding: 1rem 1.5rem; border-radius: 0.5rem; gap: 1rem; z-index: 10; }
+            .nav-links.open { display: flex; }
+        }
+        .page-header { background: linear-gradient(135deg, var(--green-dark) 0%, var(--green) 100%); color: white; padding: 3rem 2rem; text-align: center; }
+        .page-header h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .page-header p { opacity: 0.8; font-size: 1.1rem; }
+        .content { max-width: 900px; margin: 0 auto; padding: 3rem 2rem; }
+        .section { margin-bottom: 3rem; }
+        .section h2 { font-size: 1.4rem; color: var(--green-dark); margin-bottom: 1rem; font-weight: 600; display: flex; align-items: center; gap: 0.5rem; }
+        .tools-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 1.25rem; margin-top: 1rem; }
+        .tool-card { background: white; border: 1px solid #e8e8e8; border-radius: 0.75rem; padding: 1.25rem; transition: all 0.2s; }
+        .tool-card:hover { border-color: var(--accent); box-shadow: 0 2px 8px rgba(45, 106, 79, 0.1); transform: translateY(-1px); }
+        .tool-card h3 { color: var(--green-dark); margin-bottom: 0.4rem; font-size: 1.05rem; }
+        .tool-card p { color: var(--text-light); font-size: 0.92rem; margin: 0; line-height: 1.5; }
+        footer { text-align: center; padding: 2rem; color: var(--text-light); font-size: 0.85rem; border-top: 1px solid #e0ddd5; }
+        footer a { color: var(--green); text-decoration: none; }
+        .footer-links { margin-bottom: 0.75rem; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; }
+        @media (max-width: 480px) { .content { padding: 2rem 1.5rem; } .tools-grid { grid-template-columns: 1fr; } .page-header h1 { font-size: 1.8rem; } }
+    </style>
+    <link rel="alternate" type="application/rss+xml" title="Forest SD Blog" href="https://forestsd-site.pages.dev/feed.xml">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icon-192x192.png">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="nav-logo">🌲 Forest SD</a>
+        <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">☰</button>
+        <div class="nav-links">
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="resources.html">Resources</a>
+            <a href="blog/index.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Resources</h1>
+        <p>Tools and platforms I use and recommend for digital work</p>
+    </header>
+
+    <main class="content">
+
+        <div class="section">
+            <h2>🔍 SEO Tools</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3>Google Search Console</h3>
+                    <p>Free, essential. Monitor your site's search performance, indexing status, and Core Web Vitals directly from Google.</p>
+                </div>
+                <div class="tool-card">
+                    <h3>Screaming Frog</h3>
+                    <p>The gold standard for technical SEO audits. Crawl your site to find broken links, duplicate content, and redirect chains.</p>
+                </div>
+                <div class="tool-card">
+                    <h3>Schema Markup Generator</h3>
+                    <p>Tools like Merkle's schema generator or Schema.dev make creating JSON-LD structured data quick and error-free.</p>
+                </div>
+                <div class="tool-card">
+                    <h3>Ahrefs / Semrush</h3>
+                    <p>Keyword research, backlink analysis, competitor intelligence. Pick one (or both) — they're invaluable for any SEO workflow.</p>
+                </div>
+                <div class="tool-card">
+                    <h3>Google Keyword Planner</h3>
+                    <p>Free keyword research straight from Google Ads. Great for search volume estimates and discovering new keyword ideas.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>✍️ Content Creation</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3>Claude / ChatGPT</h3>
+                    <p>AI writing assistants for brainstorming, drafting, editing, and research. Best used as a collaborative tool, not a replacement.</p>
+                </div>
+                <div class="tool-card">
+                    <h3>Midjourney / DALL-E</h3>
+                    <p>AI image generation for blog graphics, social media visuals, and creative concepts. Incredibly fast from idea to visual.</p>
+                </div>
+                <div class="tool-card">
+                    <h3>Descript</h3>
+                    <p>Video and podcast editing made simple. Edit video by editing text — perfect for repurposing content across formats.</p>
+                </div>
+                <div class="tool-card">
+                    <h3>Canva</h3>
+                    <p>Quick, professional graphic design without needing Photoshop. Templates for social posts, presentations, and more.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>💻 Web Development</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3>Cloudflare Pages</h3>
+                    <p>Free static site hosting with global CDN, automatic HTTPS, and git-based deploys. What this site runs on.</p>
+                </div>
+                <div class="tool-card">
+                    <h3>GitHub</h3>
+                    <p>Version control, collaboration, and CI/CD. The backbone of modern development workflows.</p>
+                </div>
+                <div class="tool-card">
+                    <h3>VS Code</h3>
+                    <p>The code editor. Lightweight, extensible, and free. Paired with Copilot, it's an incredibly productive environment.</p>
+                </div>
+                <div class="tool-card">
+                    <h3>Hugo / Eleventy / Astro</h3>
+                    <p>Static site generators for when you need more structure than raw HTML but want to keep things fast and simple.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📊 Analytics</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3>Google Analytics 4</h3>
+                    <p>The industry standard for web analytics. Event-based tracking, audience insights, and conversion measurement.</p>
+                </div>
+                <div class="tool-card">
+                    <h3>Cloudflare Web Analytics</h3>
+                    <p>Privacy-first, free analytics. No cookies, no tracking scripts. Lightweight and built into Cloudflare's dashboard.</p>
+                </div>
+                <div class="tool-card">
+                    <h3>Plausible / Fathom</h3>
+                    <p>Privacy-friendly GA alternatives. Simple dashboards, GDPR-compliant, and respect your visitors' data.</p>
+                </div>
+                <div class="tool-card">
+                    <h3>Looker Studio</h3>
+                    <p>Free dashboarding from Google. Connect Search Console, GA4, and other data sources for custom reports.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>📣 Marketing</h2>
+            <div class="tools-grid">
+                <div class="tool-card">
+                    <h3>Beehiiv / ConvertKit</h3>
+                    <p>Modern email newsletter platforms. Great for building audiences, automations, and monetizing content.</p>
+                </div>
+                <div class="tool-card">
+                    <h3>Buffer / Hootsuite</h3>
+                    <p>Social media scheduling and management. Plan content across platforms and track engagement from one place.</p>
+                </div>
+                <div class="tool-card">
+                    <h3>HubSpot CRM</h3>
+                    <p>Free CRM for managing contacts, deals, and marketing pipelines. Scales from solo to enterprise.</p>
+                </div>
+                <div class="tool-card">
+                    <h3>Zapier / Make</h3>
+                    <p>Automation platforms that connect your tools. Trigger workflows between email, CRM, social, and hundreds of apps.</p>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+            <a href="disclaimer.html">Disclaimer</a>
+            <a href="now.html">Now</a>
+        </div>
+        <p>© 2026 Forest SD · Made in San Diego 🌴</p>
+    </footer>
+
+</body>
+</html>

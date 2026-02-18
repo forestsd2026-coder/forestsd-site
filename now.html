@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Now — Forest SD</title>
+    <meta name="description" content="What Forest SD is currently working on and focused on right now. Inspired by nownownow.com.">
+    <link rel="canonical" href="https://forestsd-site.pages.dev/now.html">
+    <meta property="og:title" content="Now — Forest SD">
+    <meta property="og:description" content="What Forest SD is currently working on and focused on right now.">
+    <meta property="og:url" content="https://forestsd-site.pages.dev/now.html">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌲</text></svg>">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --green: #2d6a4f; --green-light: #40916c; --green-dark: #1b4332; --sand: #f5f0e8; --text: #1a1a1a; --text-light: #555; --accent: #52b788; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; background: var(--sand); color: var(--text); line-height: 1.6; min-height: 100vh; }
+        nav { background: var(--green-dark); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; position: relative; }
+        nav a { color: white; text-decoration: none; }
+        .nav-logo { font-size: 1.2rem; font-weight: 700; }
+        .nav-links { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-links > a { font-size: 0.95rem; opacity: 0.85; transition: opacity 0.2s; }
+        .nav-links > a:hover { opacity: 1; }
+        .nav-toggle { display: none; background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; }
+        @media (max-width: 600px) {
+            .nav-toggle { display: block; }
+            .nav-links { display: none; flex-direction: column; position: absolute; top: 3rem; right: 1rem; background: var(--green-dark); padding: 1rem 1.5rem; border-radius: 0.5rem; gap: 1rem; z-index: 10; }
+            .nav-links.open { display: flex; }
+        }
+        .page-header { background: linear-gradient(135deg, var(--green-dark) 0%, var(--green) 100%); color: white; padding: 3rem 2rem; text-align: center; }
+        .page-header h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .page-header p { opacity: 0.8; font-size: 1.1rem; }
+        .content { max-width: 700px; margin: 0 auto; padding: 3rem 2rem; }
+        .updated { color: var(--text-light); font-size: 0.9rem; font-style: italic; margin-bottom: 2rem; }
+        .section { margin-bottom: 2rem; }
+        .section h2 { font-size: 1.3rem; color: var(--green-dark); margin-bottom: 0.75rem; font-weight: 600; }
+        .section p { color: var(--text-light); font-size: 1.05rem; margin-bottom: 1rem; }
+        .section ul { color: var(--text-light); font-size: 1.05rem; margin-left: 1.5rem; margin-bottom: 1rem; }
+        .section li { margin-bottom: 0.5rem; }
+        .now-inspiration { margin-top: 3rem; padding-top: 2rem; border-top: 1px solid #e0ddd5; color: var(--text-light); font-size: 0.9rem; }
+        .now-inspiration a { color: var(--green); }
+        footer { text-align: center; padding: 2rem; color: var(--text-light); font-size: 0.85rem; border-top: 1px solid #e0ddd5; }
+        footer a { color: var(--green); text-decoration: none; }
+        .footer-links { margin-bottom: 0.75rem; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; }
+        @media (max-width: 480px) { .content { padding: 2rem 1.5rem; } .page-header h1 { font-size: 1.8rem; } }
+    </style>
+    <link rel="alternate" type="application/rss+xml" title="Forest SD Blog" href="https://forestsd-site.pages.dev/feed.xml">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="./icon-192x192.png">
+</head>
+<body>
+
+    <nav>
+        <a href="index.html" class="nav-logo">🌲 Forest SD</a>
+        <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">☰</button>
+        <div class="nav-links">
+            <a href="about.html">About</a>
+            <a href="portfolio.html">Portfolio</a>
+            <a href="resources.html">Resources</a>
+            <a href="blog/index.html">Blog</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Now</h1>
+        <p>What I'm currently up to</p>
+    </header>
+
+    <main class="content">
+
+        <p class="updated">Last updated: February 2026</p>
+
+        <div class="section">
+            <h2>🏗️ Building</h2>
+            <p>I'm building out this personal website and blog — writing about SEO, digital marketing, web development, and what it's like being a digital native in 2026. Every page is hand-coded HTML and CSS, deployed on Cloudflare Pages. No frameworks, no bloat.</p>
+        </div>
+
+        <div class="section">
+            <h2>💼 Working</h2>
+            <p>I'm working in digital marketing and SEO here in San Diego. My focus is on helping businesses get found online — through technical SEO, content strategy, local search optimization, and smart use of AI tools in marketing workflows.</p>
+        </div>
+
+        <div class="section">
+            <h2>🤖 Exploring</h2>
+            <p>AI-powered content workflows are my current obsession. I'm experimenting with how AI tools can fit into real marketing workflows — not as a replacement for human creativity, but as an accelerator. From drafting to editing to repurposing, there's a lot of untapped potential.</p>
+        </div>
+
+        <div class="section">
+            <h2>📚 Learning</h2>
+            <p>Deep-diving into entity optimization and knowledge graphs. Understanding how Google represents entities (people, places, businesses) in its Knowledge Graph is becoming essential for modern SEO. I'm studying the connections between structured data, entity recognition, and search visibility.</p>
+        </div>
+
+        <div class="section">
+            <h2>🌐 Contributing</h2>
+            <p>I'm active on <a href="https://github.com/forest-sd" style="color: var(--green);">GitHub</a>, contributing to open source projects and sharing my own tools and experiments. Open source is how I learn best — by building in public and collaborating with others.</p>
+        </div>
+
+        <div class="now-inspiration">
+            <p>This is a <a href="https://nownownow.com/about">/now page</a>. If you have your own site, you should make one too.</p>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="privacy.html">Privacy Policy</a>
+            <a href="terms.html">Terms of Service</a>
+            <a href="disclaimer.html">Disclaimer</a>
+            <a href="now.html">Now</a>
+        </div>
+        <p>© 2026 Forest SD · Made in San Diego 🌴</p>
+    </footer>
+
+</body>
+</html>
