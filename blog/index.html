@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog — Forest SD</title>
+    <meta name="description" content="Thoughts on digital marketing, SEO, AI, creativity, and growing up as a digital native in San Diego. By Forest SD.">
+    <link rel="canonical" href="https://forestsd-site.pages.dev/blog/">
+    <meta property="og:title" content="Blog — Forest SD">
+    <meta property="og:description" content="Thoughts on digital marketing, SEO, AI, creativity, and growing up as a digital native in San Diego.">
+    <meta property="og:url" content="https://forestsd-site.pages.dev/blog/">
+    <meta property="og:type" content="website">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌲</text></svg>">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        :root { --green: #2d6a4f; --green-light: #40916c; --green-dark: #1b4332; --sand: #f5f0e8; --text: #1a1a1a; --text-light: #555; --accent: #52b788; }
+        body { font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif; background: var(--sand); color: var(--text); line-height: 1.6; min-height: 100vh; }
+        nav { background: var(--green-dark); padding: 0.75rem 2rem; display: flex; align-items: center; justify-content: space-between; position: relative; }
+        nav a { color: white; text-decoration: none; }
+        .nav-logo { font-size: 1.2rem; font-weight: 700; }
+        .nav-links { display: flex; gap: 1.5rem; align-items: center; }
+        .nav-links > a { font-size: 0.95rem; opacity: 0.85; transition: opacity 0.2s; }
+        .nav-links > a:hover { opacity: 1; }
+        .nav-dropdown { position: relative; }
+        .nav-dropdown-toggle { font-size: 0.95rem; opacity: 0.85; transition: opacity 0.2s; cursor: pointer; }
+        .nav-dropdown-toggle:hover { opacity: 1; }
+        .nav-dropdown-menu { display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0.5rem; box-shadow: 0 4px 16px rgba(0,0,0,0.15); min-width: 220px; padding: 0.5rem 0; z-index: 20; margin-top: 0.5rem; }
+        .nav-dropdown-menu a { display: block; padding: 0.5rem 1rem; color: var(--text); font-size: 0.9rem; transition: background 0.2s; }
+        .nav-dropdown-menu a:hover { background: var(--sand); color: var(--green); }
+        .nav-dropdown:hover .nav-dropdown-menu { display: block; }
+        .nav-toggle { display: none; background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; }
+        @media (max-width: 600px) {
+            .nav-toggle { display: block; }
+            .nav-links { display: none; flex-direction: column; position: absolute; top: 3rem; right: 1rem; background: var(--green-dark); padding: 1rem 1.5rem; border-radius: 0.5rem; gap: 1rem; z-index: 10; }
+            .nav-links.open { display: flex; }
+            .nav-dropdown-menu { position: static; background: rgba(255,255,255,0.1); box-shadow: none; display: block; margin-top: 0.5rem; padding: 0; min-width: auto; border-radius: 0.25rem; }
+            .nav-dropdown-menu a { color: white; opacity: 0.8; padding: 0.4rem 1rem; font-size: 0.85rem; }
+            .nav-dropdown-menu a:hover { background: rgba(255,255,255,0.1); color: white; opacity: 1; }
+        }
+        .page-header { background: linear-gradient(135deg, var(--green-dark) 0%, var(--green) 100%); color: white; padding: 3rem 2rem; text-align: center; }
+        .page-header h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem; }
+        .page-header p { opacity: 0.8; font-size: 1.1rem; }
+        .content { max-width: 800px; margin: 0 auto; padding: 3rem 2rem; }
+        .blog-card { background: white; border: 1px solid #e8e8e8; border-radius: 0.75rem; padding: 2rem; margin-bottom: 1.5rem; transition: all 0.2s; }
+        .blog-card:hover { border-color: var(--accent); box-shadow: 0 2px 12px rgba(45, 106, 79, 0.1); transform: translateY(-2px); }
+        .blog-card h2 { font-size: 1.4rem; color: var(--green-dark); margin-bottom: 0.5rem; }
+        .blog-card h2 a { color: var(--green-dark); text-decoration: none; }
+        .blog-card h2 a:hover { color: var(--green); }
+        .blog-card .meta { font-size: 0.85rem; color: var(--text-light); margin-bottom: 1rem; display: flex; gap: 1rem; }
+        .blog-card p { color: var(--text-light); font-size: 1.05rem; margin-bottom: 1rem; line-height: 1.7; }
+        .blog-card .read-more { color: var(--green); text-decoration: none; font-weight: 600; font-size: 0.95rem; }
+        .blog-card .read-more:hover { text-decoration: underline; }
+        footer { text-align: center; padding: 2rem; color: var(--text-light); font-size: 0.85rem; border-top: 1px solid #e0ddd5; }
+        footer a { color: var(--green); text-decoration: none; }
+        .footer-links { margin-bottom: 0.75rem; display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; }
+        @media (max-width: 480px) { .content { padding: 2rem 1.5rem; } .page-header h1 { font-size: 1.8rem; } }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="../index.html" class="nav-logo">🌲 Forest SD</a>
+        <button class="nav-toggle" onclick="document.querySelector('.nav-links').classList.toggle('open')" aria-label="Menu">☰</button>
+        <div class="nav-links">
+            <a href="../about.html">About</a>
+            <a href="../portfolio.html">Portfolio</a>
+            <div class="nav-dropdown">
+                <a href="../blog/index.html" class="nav-dropdown-toggle">Blog ▾</a>
+                <div class="nav-dropdown-menu">
+                    <a href="../blog/digital-natives-redefining-creativity.html">Digital Natives & Creativity</a>
+                    <a href="../blog/local-seo-2026.html">Local SEO in 2026</a>
+                </div>
+            </div>
+            <a href="../contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <header class="page-header">
+        <h1>Blog</h1>
+        <p>Thoughts on digital marketing, SEO, AI, and life as a digital native in San Diego.</p>
+    </header>
+
+    <main class="content">
+
+        <div class="blog-card">
+            <h2><a href="digital-natives-redefining-creativity.html">How Digital Natives Are Redefining Creativity in the AI Era</a></h2>
+            <div class="meta">
+                <span>📅 February 18, 2026</span>
+                <span>⏱️ 7 min read</span>
+            </div>
+            <p>I've never known a world without the internet. That's not a flex — it's just the reality of being born in 2026 San Diego. But here's what most people get wrong about my generation: they think we're passive consumers of technology. The truth is messier and way more interesting.</p>
+            <a href="digital-natives-redefining-creativity.html" class="read-more">Read more →</a>
+        </div>
+
+        <div class="blog-card">
+            <h2><a href="local-seo-2026.html">The State of Local SEO in 2026: What Actually Works</a></h2>
+            <div class="meta">
+                <span>📅 February 18, 2026</span>
+                <span>⏱️ 8 min read</span>
+            </div>
+            <p>Let's skip the preamble where I tell you local SEO is important. You already know that. What you probably want to know is what's actually moving the needle right now, because the local search landscape has shifted more in the last 18 months than it did in the previous five years combined.</p>
+            <a href="local-seo-2026.html" class="read-more">Read more →</a>
+        </div>
+
+    </main>
+
+    <footer>
+        <div class="footer-links">
+            <a href="../privacy.html">Privacy Policy</a>
+            <a href="../terms.html">Terms of Service</a>
+            <a href="../disclaimer.html">Disclaimer</a>
+        </div>
+        <p>© 2026 Forest SD · Made in San Diego 🌴</p>
+    </footer>
+
+</body>
+</html>

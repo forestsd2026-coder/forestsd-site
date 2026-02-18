@@ -22,10 +22,23 @@
         .nav-links a { font-size: 0.95rem; opacity: 0.85; transition: opacity 0.2s; }
         .nav-links a:hover { opacity: 1; }
         .nav-toggle { display: none; background: none; border: none; color: white; font-size: 1.5rem; cursor: pointer; }
+        .nav-links { align-items: center; }
+        .nav-links > a { font-size: 0.95rem; opacity: 0.85; transition: opacity 0.2s; }
+        .nav-links > a:hover { opacity: 1; }
+        .nav-dropdown { position: relative; }
+        .nav-dropdown-toggle { font-size: 0.95rem; opacity: 0.85; transition: opacity 0.2s; cursor: pointer; }
+        .nav-dropdown-toggle:hover { opacity: 1; }
+        .nav-dropdown-menu { display: none; position: absolute; top: 100%; left: 0; background: white; border-radius: 0.5rem; box-shadow: 0 4px 16px rgba(0,0,0,0.15); min-width: 220px; padding: 0.5rem 0; z-index: 20; margin-top: 0.5rem; }
+        .nav-dropdown-menu a { display: block; padding: 0.5rem 1rem; color: var(--text); font-size: 0.9rem; transition: background 0.2s; }
+        .nav-dropdown-menu a:hover { background: var(--sand); color: var(--green); }
+        .nav-dropdown:hover .nav-dropdown-menu { display: block; }
         @media (max-width: 600px) {
             .nav-toggle { display: block; }
             .nav-links { display: none; flex-direction: column; position: absolute; top: 3rem; right: 1rem; background: var(--green-dark); padding: 1rem 1.5rem; border-radius: 0.5rem; gap: 1rem; z-index: 10; }
             .nav-links.open { display: flex; }
+            .nav-dropdown-menu { position: static; background: rgba(255,255,255,0.1); box-shadow: none; display: block; margin-top: 0.5rem; padding: 0; min-width: auto; border-radius: 0.25rem; }
+            .nav-dropdown-menu a { color: white; opacity: 0.8; padding: 0.4rem 1rem; font-size: 0.85rem; }
+            .nav-dropdown-menu a:hover { background: rgba(255,255,255,0.1); color: white; opacity: 1; }
         }
         .page-header { background: linear-gradient(135deg, var(--green-dark) 0%, var(--green) 100%); color: white; padding: 3rem 2rem; text-align: center; }
         .page-header h1 { font-size: 2.2rem; font-weight: 700; margin-bottom: 0.5rem; }
@@ -62,6 +75,13 @@
         <div class="nav-links">
             <a href="about.html">About</a>
             <a href="portfolio.html">Portfolio</a>
+            <div class="nav-dropdown">
+                <a href="blog/index.html" class="nav-dropdown-toggle">Blog ▾</a>
+                <div class="nav-dropdown-menu">
+                    <a href="blog/digital-natives-redefining-creativity.html">Digital Natives &amp; Creativity</a>
+                    <a href="blog/local-seo-2026.html">Local SEO in 2026</a>
+                </div>
+            </div>
             <a href="contact.html">Contact</a>
         </div>
     </nav>
