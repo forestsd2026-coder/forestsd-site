@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Forest SD Blog</title>
+    <link>https://forestsd-site.pages.dev/blog/index.html</link>
+    <description>Thoughts on technology, SEO, digital marketing, and life as a digital native in San Diego.</description>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 18 Feb 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://forestsd-site.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The State of Local SEO in 2026: What Actually Works</title>
+      <link>https://forestsd-site.pages.dev/blog/local-seo-2026.html</link>
+      <guid isPermaLink="true">https://forestsd-site.pages.dev/blog/local-seo-2026.html</guid>
+      <pubDate>Tue, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>A practical look at what's actually moving the needle in local search — from entity optimization and AI Overviews to GBP strategies and schema markup.</description>
+    </item>
+    <item>
+      <title>How Digital Natives Are Redefining Creativity in the AI Era</title>
+      <link>https://forestsd-site.pages.dev/blog/digital-natives-redefining-creativity.html</link>
+      <guid isPermaLink="true">https://forestsd-site.pages.dev/blog/digital-natives-redefining-creativity.html</guid>
+      <pubDate>Tue, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>How growing up with AI as a native tool is changing the creative process — from content creation and design to marketing and beyond.</description>
+    </item>
+  </channel>
+</rss>
