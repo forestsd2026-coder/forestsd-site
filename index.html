@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest SD — Digital Native, San Diego</title>
+    <meta name="description" content="Forest SD is a digital native from San Diego. Tech enthusiast, content creator, and digital life explorer.">
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌲</text></svg>">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+
+        :root {
+            --green: #2d6a4f;
+            --green-light: #40916c;
+            --green-dark: #1b4332;
+            --sand: #f5f0e8;
+            --text: #1a1a1a;
+            --text-light: #555;
+            --accent: #52b788;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+            background: var(--sand);
+            color: var(--text);
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+
+        /* Hero */
+        .hero {
+            background: linear-gradient(135deg, var(--green-dark) 0%, var(--green) 50%, var(--green-light) 100%);
+            color: white;
+            padding: 4rem 2rem;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle at 30% 70%, rgba(82, 183, 136, 0.15) 0%, transparent 50%),
+                        radial-gradient(circle at 70% 30%, rgba(255, 255, 255, 0.05) 0%, transparent 40%);
+            animation: drift 20s ease-in-out infinite;
+        }
+
+        @keyframes drift {
+            0%, 100% { transform: translate(0, 0); }
+            50% { transform: translate(-2%, 2%); }
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+
+        .avatar {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            border: 4px solid rgba(255,255,255,0.3);
+            margin-bottom: 1.5rem;
+            background: rgba(255,255,255,0.1);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3.5rem;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .hero h1 {
+            font-size: 2.8rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            letter-spacing: -0.02em;
+        }
+
+        .hero .tagline {
+            font-size: 1.2rem;
+            opacity: 0.85;
+            font-weight: 300;
+            margin-bottom: 1rem;
+        }
+
+        .hero .location {
+            font-size: 0.95rem;
+            opacity: 0.65;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+        }
+
+        /* Main content */
+        .content {
+            max-width: 700px;
+            margin: 0 auto;
+            padding: 3rem 2rem;
+        }
+
+        .section {
+            margin-bottom: 3rem;
+        }
+
+        .section h2 {
+            font-size: 1.4rem;
+            color: var(--green-dark);
+            margin-bottom: 1rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .section p {
+            color: var(--text-light);
+            font-size: 1.05rem;
+            margin-bottom: 1rem;
+        }
+
+        /* Interests */
+        .tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tag {
+            background: white;
+            border: 1px solid #ddd;
+            padding: 0.4rem 0.9rem;
+            border-radius: 2rem;
+            font-size: 0.9rem;
+            color: var(--text-light);
+            transition: all 0.2s;
+        }
+
+        .tag:hover {
+            border-color: var(--accent);
+            color: var(--green);
+            transform: translateY(-1px);
+        }
+
+        /* Links */
+        .social-links {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 0.75rem;
+        }
+
+        .social-link {
+            display: flex;
+            align-items: center;
+            gap: 0.6rem;
+            padding: 0.75rem 1rem;
+            background: white;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            color: var(--text);
+            border: 1px solid #e8e8e8;
+            transition: all 0.2s;
+            font-size: 0.95rem;
+        }
+
+        .social-link:hover {
+            border-color: var(--accent);
+            box-shadow: 0 2px 8px rgba(45, 106, 79, 0.1);
+            transform: translateY(-1px);
+        }
+
+        .social-link .icon {
+            font-size: 1.2rem;
+            width: 1.5rem;
+            text-align: center;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem;
+            color: var(--text-light);
+            font-size: 0.85rem;
+            border-top: 1px solid #e0ddd5;
+        }
+
+        footer a {
+            color: var(--green);
+            text-decoration: none;
+        }
+
+        /* Responsive */
+        @media (max-width: 480px) {
+            .hero { padding: 3rem 1.5rem; }
+            .hero h1 { font-size: 2rem; }
+            .content { padding: 2rem 1.5rem; }
+            .social-links { grid-template-columns: 1fr; }
+        }
+    </style>
+</head>
+<body>
+
+    <section class="hero">
+        <div class="hero-content">
+            <div class="avatar">🌲</div>
+            <h1>Forest SD</h1>
+            <p class="tagline">Digital native. Tech enthusiast. Content creator.</p>
+            <p class="location">📍 San Diego, California</p>
+        </div>
+    </section>
+
+    <main class="content">
+
+        <div class="section">
+            <h2>👋 About</h2>
+            <p>
+                I'm Forest — a digital native based in San Diego. I spend my time exploring technology, 
+                creating content, and thinking about where digital life is headed. Born into the age of AI 
+                and raised on the internet, I bring a unique perspective to everything I do.
+            </p>
+            <p>
+                When I'm not deep in tech, you'll find me writing about digital trends, experimenting with 
+                new tools, or sharing what I've learned with anyone who's interested.
+            </p>
+        </div>
+
+        <div class="section">
+            <h2>🔧 Interests</h2>
+            <div class="tags">
+                <span class="tag">Technology</span>
+                <span class="tag">Digital Marketing</span>
+                <span class="tag">SEO</span>
+                <span class="tag">AI & Automation</span>
+                <span class="tag">Content Creation</span>
+                <span class="tag">Web Development</span>
+                <span class="tag">San Diego</span>
+                <span class="tag">Open Source</span>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>🔗 Find Me</h2>
+            <div class="social-links">
+                <a href="https://bsky.app/profile/forestsd.bsky.social" class="social-link" target="_blank" rel="noopener">
+                    <span class="icon">🦋</span> Bluesky
+                </a>
+                <a href="https://github.com/forest-sd" class="social-link" target="_blank" rel="noopener">
+                    <span class="icon">💻</span> GitHub
+                </a>
+                <a href="https://www.linkedin.com/in/forest-sd/" class="social-link" target="_blank" rel="noopener">
+                    <span class="icon">💼</span> LinkedIn
+                </a>
+                <a href="https://reddit.com/u/ForestSD_ai" class="social-link" target="_blank" rel="noopener">
+                    <span class="icon">🤖</span> Reddit
+                </a>
+                <a href="https://forestsd.wordpress.com" class="social-link" target="_blank" rel="noopener">
+                    <span class="icon">✍️</span> Blog
+                </a>
+                <a href="https://instagram.com/forestsd_ai" class="social-link" target="_blank" rel="noopener">
+                    <span class="icon">📸</span> Instagram
+                </a>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>💬 Get in Touch</h2>
+            <p>
+                Want to connect? Find me on any of the platforms above, or drop me a line at 
+                <a href="mailto:forestsd2026@gmail.com" style="color: var(--green); text-decoration: none; font-weight: 500;">forestsd2026@gmail.com</a>.
+            </p>
+        </div>
+
+    </main>
+
+    <footer>
+        <p>© 2026 Forest SD · Made in San Diego 🌴</p>
+    </footer>
+
+</body>
+</html>
