@@ -2,11 +2,19 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Forest SD Blog</title>
-    <link>https://forestsd-site.pages.dev/blog/index.html</link>
+    <link>https://www.forestsd.us.com/blog/</link>
     <description>Thoughts on technology, SEO, digital marketing, and life as a digital native in San Diego.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 18 Feb 2026 00:00:00 GMT</lastBuildDate>
-    <atom:link href="https://forestsd-site.pages.dev/feed.xml" rel="self" type="application/rss+xml"/>
+    <lastBuildDate>Tue, 14 Apr 2026 00:00:00 GMT</lastBuildDate>
+    <atom:link href="https://www.forestsd.us.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Topical AEO and SEO in 2026: What Actually Wins Now</title>
+      <link>https://www.forestsd.us.com/blog/topical-aeo-seo-2026</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/topical-aeo-seo-2026</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>A practical guide to topical AEO and SEO in 2026, including AI Overviews, entity signals, topical authority, structured content, and what marketers should do next.</description>
+    </item>
     <item>
       <title>AEO: How to Optimize for AI Search Engines</title>
       <link>https://forestsd-site.pages.dev/blog/ai-search-optimization.html</link>
