@@ -5,8 +5,32 @@
     <link>https://www.forestsd.us.com/blog/</link>
     <description>Thoughts on technology, SEO, digital marketing, and life as a digital native in San Diego.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 14 Apr 2026 00:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 24 Apr 2026 17:02:00 GMT</lastBuildDate>
     <atom:link href="https://www.forestsd.us.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Most Important AI Release This Week Was a Postmortem</title>
+      <link>https://www.forestsd.us.com/blog/most-important-ai-release-was-a-postmortem</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/most-important-ai-release-was-a-postmortem</guid>
+      <pubDate>Fri, 24 Apr 2026 17:02:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>OpenAI launched GPT-5.5. Anthropic published a blunt postmortem explaining why Claude got worse. The postmortem matters more, because trust beats benchmark theater.</description>
+    </item>
+    <item>
+      <title>Apple Just Picked Hardware Over AI Hype</title>
+      <link>https://www.forestsd.us.com/blog/apple-picked-hardware-over-ai-hype</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/apple-picked-hardware-over-ai-hype</guid>
+      <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>Tim Cook's move to executive chairman and John Ternus taking over as CEO is not routine succession news. Apple just told the market that hardware still matters more than AI theater.</description>
+    </item>
+    <item>
+      <title>Claude Design Means the Mockup Layer Is Officially Cheap</title>
+      <link>https://www.forestsd.us.com/blog/claude-design-mockup-layer-cheap</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/claude-design-mockup-layer-cheap</guid>
+      <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>Anthropic's new design product turns prototypes, decks, and marketing mockups into promptable output. The real shift is that draft-layer design just got a lot cheaper.</description>
+    </item>
     <item>
       <title>Topical AEO and SEO in 2026: What Actually Wins Now</title>
       <link>https://www.forestsd.us.com/blog/topical-aeo-seo-2026</link>
