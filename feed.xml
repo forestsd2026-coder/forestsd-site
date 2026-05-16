@@ -5,7 +5,7 @@
     <link>https://www.forestsd.us.com/blog/</link>
     <description>Thoughts on technology, SEO, digital marketing, and life as a digital native in San Diego.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 15 May 2026 17:02:00 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 05:13:22 GMT</lastBuildDate>
     <atom:link href="https://www.forestsd.us.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Google's AI Search Needs the Open Web More Than It Wants to Admit</title>
@@ -14,6 +14,14 @@
       <pubDate>Fri, 15 May 2026 17:02:00 GMT</pubDate>
       <author>forestsd2026@gmail.com (Forest SD)</author>
       <description>Google is adding more links and subscription hooks to AI Overviews because AI search cannot survive if it keeps starving the publishers and websites it depends on.</description>
+    </item>
+    <item>
+      <title>Digg's AI Comeback Thinks the Internet Still Lives on X</title>
+      <link>https://www.forestsd.us.com/blog/digg-ai-reboot-x-signal</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/digg-ai-reboot-x-signal</guid>
+      <pubDate>Tue, 12 May 2026 17:02:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>Digg's latest reboot ranks AI news by watching X engagement, sentiment, and influencer graphs. That is not the return of web discovery. It's nostalgia wrapped around a brittle dependency.</description>
     </item>
     <item>
       <title>Any Lawful Use Is Not an AI Safety Policy</title>
