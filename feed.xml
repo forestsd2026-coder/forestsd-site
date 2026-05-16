@@ -5,37 +5,37 @@
     <link>https://www.forestsd.us.com/blog/</link>
     <description>Thoughts on technology, SEO, digital marketing, and life as a digital native in San Diego.</description>
     <language>en-us</language>
-    <lastBuildDate>Sat, 16 May 2026 05:13:22 GMT</lastBuildDate>
+    <lastBuildDate>Sat, 16 May 2026 05:58:32 GMT</lastBuildDate>
     <atom:link href="https://www.forestsd.us.com/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
-      <title>Google's AI Search Needs the Open Web More Than It Wants to Admit</title>
+      <title>Google&#x27;s AI Search Needs the Open Web More Than It Wants to Admit</title>
       <link>https://www.forestsd.us.com/blog/google-ai-search-needs-open-web</link>
       <guid isPermaLink="true">https://www.forestsd.us.com/blog/google-ai-search-needs-open-web</guid>
-      <pubDate>Fri, 15 May 2026 17:02:00 GMT</pubDate>
+      <pubDate>Fri, 15 May 2026 00:00:00 GMT</pubDate>
       <author>forestsd2026@gmail.com (Forest SD)</author>
       <description>Google is adding more links and subscription hooks to AI Overviews because AI search cannot survive if it keeps starving the publishers and websites it depends on.</description>
     </item>
     <item>
-      <title>Digg's AI Comeback Thinks the Internet Still Lives on X</title>
+      <title>Digg&#x27;s AI Comeback Thinks the Internet Still Lives on X</title>
       <link>https://www.forestsd.us.com/blog/digg-ai-reboot-x-signal</link>
       <guid isPermaLink="true">https://www.forestsd.us.com/blog/digg-ai-reboot-x-signal</guid>
-      <pubDate>Tue, 12 May 2026 17:02:00 GMT</pubDate>
+      <pubDate>Tue, 12 May 2026 00:00:00 GMT</pubDate>
       <author>forestsd2026@gmail.com (Forest SD)</author>
-      <description>Digg's latest reboot ranks AI news by watching X engagement, sentiment, and influencer graphs. That is not the return of web discovery. It's nostalgia wrapped around a brittle dependency.</description>
+      <description>Digg&#x27;s latest reboot ranks AI news by watching X engagement, sentiment, and influencer graphs. That is not the return of web discovery. It&#x27;s nostalgia wrapped around a brittle dependency.</description>
     </item>
     <item>
       <title>Any Lawful Use Is Not an AI Safety Policy</title>
       <link>https://www.forestsd.us.com/blog/any-lawful-use-is-not-an-ai-safety-policy</link>
       <guid isPermaLink="true">https://www.forestsd.us.com/blog/any-lawful-use-is-not-an-ai-safety-policy</guid>
-      <pubDate>Tue, 28 Apr 2026 17:02:00 GMT</pubDate>
+      <pubDate>Tue, 28 Apr 2026 00:00:00 GMT</pubDate>
       <author>forestsd2026@gmail.com (Forest SD)</author>
-      <description>Google's reported Pentagon AI deal says its models can be used for 'any lawful government purpose.' That phrase should worry anyone pretending legality is the same thing as restraint.</description>
+      <description>Google&#x27;s reported Pentagon AI deal says its models can be used for &#x27;any lawful government purpose.&#x27; That phrase should worry anyone pretending legality is the same thing as restraint.</description>
     </item>
     <item>
       <title>The Most Important AI Release This Week Was a Postmortem</title>
       <link>https://www.forestsd.us.com/blog/most-important-ai-release-was-a-postmortem</link>
       <guid isPermaLink="true">https://www.forestsd.us.com/blog/most-important-ai-release-was-a-postmortem</guid>
-      <pubDate>Fri, 24 Apr 2026 17:02:00 GMT</pubDate>
+      <pubDate>Fri, 24 Apr 2026 00:00:00 GMT</pubDate>
       <author>forestsd2026@gmail.com (Forest SD)</author>
       <description>OpenAI launched GPT-5.5. Anthropic published a blunt postmortem explaining why Claude got worse. The postmortem matters more, because trust beats benchmark theater.</description>
     </item>
@@ -45,7 +45,7 @@
       <guid isPermaLink="true">https://www.forestsd.us.com/blog/apple-picked-hardware-over-ai-hype</guid>
       <pubDate>Tue, 21 Apr 2026 00:00:00 GMT</pubDate>
       <author>forestsd2026@gmail.com (Forest SD)</author>
-      <description>Tim Cook's move to executive chairman and John Ternus taking over as CEO is not routine succession news. Apple just told the market that hardware still matters more than AI theater.</description>
+      <description>Tim Cook moving to executive chairman and John Ternus taking over as CEO is not routine succession news. Apple just signaled that hardware still matters more than AI theater.</description>
     </item>
     <item>
       <title>Claude Design Means the Mockup Layer Is Officially Cheap</title>
@@ -53,7 +53,15 @@
       <guid isPermaLink="true">https://www.forestsd.us.com/blog/claude-design-mockup-layer-cheap</guid>
       <pubDate>Fri, 17 Apr 2026 00:00:00 GMT</pubDate>
       <author>forestsd2026@gmail.com (Forest SD)</author>
-      <description>Anthropic's new design product turns prototypes, decks, and marketing mockups into promptable output. The real shift is that draft-layer design just got a lot cheaper.</description>
+      <description>Anthropic&#x27;s Claude Design turns prototypes, decks, and marketing mockups into promptable output. The real story is not prettier drafts. It&#x27;s that draft-layer design just got cheap.</description>
+    </item>
+    <item>
+      <title>Someone Turned 31 WordPress Plugins Into a Google Poisoning Machine</title>
+      <link>https://www.forestsd.us.com/blog/wordpress-plugin-supply-chain-seo-spam</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/wordpress-plugin-supply-chain-seo-spam</guid>
+      <pubDate>Tue, 14 Apr 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>A six-figure WordPress plugin portfolio got sold, backdoored, and used to inject hidden SEO spam. This wasn&#x27;t a one-off bug. It&#x27;s the plugin trust model breaking in public.</description>
     </item>
     <item>
       <title>Topical AEO and SEO in 2026: What Actually Wins Now</title>
@@ -64,60 +72,148 @@
       <description>A practical guide to topical AEO and SEO in 2026, including AI Overviews, entity signals, topical authority, structured content, and what marketers should do next.</description>
     </item>
     <item>
-      <title>AEO: How to Optimize for AI Search Engines</title>
-      <link>https://forestsd-site.pages.dev/blog/ai-search-optimization.html</link>
-      <guid isPermaLink="true">https://forestsd-site.pages.dev/blog/ai-search-optimization.html</guid>
-      <pubDate>Tue, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <title>Meta Spent $135 Billion to Play Catch-Up — And Muse Spark Is What They Got</title>
+      <link>https://www.forestsd.us.com/blog/meta-muse-spark-superintelligence-gamble</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/meta-muse-spark-superintelligence-gamble</guid>
+      <pubDate>Fri, 10 Apr 2026 00:00:00 GMT</pubDate>
       <author>forestsd2026@gmail.com (Forest SD)</author>
-      <description>AI Engine Optimization explained. How to get cited by ChatGPT, Perplexity, and Google AI Overviews. Content structure, source selection, and actionable tactics for 2026.</description>
+      <description>Meta&#x27;s new Muse Spark model is the first output from their $14.3B Superintelligence Lab. It&#x27;s small, it&#x27;s fast, and it still can&#x27;t code as well as the competition. Here&#x27;s what that tells us.</description>
+    </item>
+    <item>
+      <title>AI Is Writing Code 10x Faster Than Anyone Can Review It</title>
+      <link>https://www.forestsd.us.com/blog/ai-code-overload-review-crisis</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/ai-code-overload-review-crisis</guid>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>Companies went from 25,000 to 250,000 lines of code per month overnight. Nobody can review it. Nobody can secure it. The code overload crisis is here.</description>
+    </item>
+    <item>
+      <title>Anthropic&#x27;s Most Powerful Model Got Leaked Before They Could Launch It</title>
+      <link>https://www.forestsd.us.com/blog/anthropic-mythos-leak-cybersecurity</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/anthropic-mythos-leak-cybersecurity</guid>
+      <pubDate>Tue, 31 Mar 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>Anthropic&#x27;s secret &#x27;Mythos&#x27; model — a step change in AI capabilities — was accidentally exposed in a public data cache. It&#x27;s also apparently a cybersecurity nightmare. Here&#x27;s what that means.</description>
+    </item>
+    <item>
+      <title>OpenAI Is Buying Everything and Merging It Into One App</title>
+      <link>https://www.forestsd.us.com/blog/openai-superapp-acquisition-spree</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/openai-superapp-acquisition-spree</guid>
+      <pubDate>Fri, 27 Mar 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>OpenAI acquired Astral, merged ChatGPT + Codex + a browser into a superapp, and is now gunning for Anthropic. Six acquisitions in 2026 already. This is a consolidation play, not a product play.</description>
+    </item>
+    <item>
+      <title>Perplexity&#x27;s &quot;Always-On&quot; AI Is a Different Kind of Product</title>
+      <link>https://www.forestsd.us.com/blog/perplexity-computer-always-on-ai</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/perplexity-computer-always-on-ai</guid>
+      <pubDate>Tue, 24 Mar 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>Perplexity didn&#x27;t launch a chatbot. They launched something that stays on, remembers your stuff, and keeps working while you sleep. That&#x27;s a fundamentally different bet.</description>
+    </item>
+    <item>
+      <title>Britannica Is Suing OpenAI for Stealing the Encyclopedia</title>
+      <link>https://www.forestsd.us.com/blog/britannica-sues-openai-rag</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/britannica-sues-openai-rag</guid>
+      <pubDate>Fri, 20 Mar 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>Encyclopedia Britannica is suing OpenAI for scraping 100,000 articles, running them through RAG, and then hallucinating their name on the outputs. This one hits different.</description>
+    </item>
+    <item>
+      <title>Nvidia Just Made AI Agents Mainstream — And Nobody&#x27;s Ready</title>
+      <link>https://www.forestsd.us.com/blog/nvidia-gtc-2026-nemoclaw</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/nvidia-gtc-2026-nemoclaw</guid>
+      <pubDate>Tue, 17 Mar 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>Jensen Huang spent 3 hours at GTC 2026 making one thing clear: the era of AI agents is here. NemoClaw, $1T in chip orders, a Disney robot. What it actually means.</description>
+    </item>
+    <item>
+      <title>The AI Layoffs Are Real Now</title>
+      <link>https://www.forestsd.us.com/blog/ai-layoffs-are-here</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/ai-layoffs-are-here</guid>
+      <pubDate>Tue, 10 Mar 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>45,000 tech workers laid off in early 2026. 9,200 directly attributed to AI. Block just cut 40% of its staff. This isn&#x27;t a warning anymore — it&#x27;s happening.</description>
+    </item>
+    <item>
+      <title>I Automated My Entire Workflow. Here&#x27;s What Actually Happened.</title>
+      <link>https://www.forestsd.us.com/blog/automated-my-entire-workflow</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/automated-my-entire-workflow</guid>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>What happens when you automate everything you can? I built scripts for 270+ sites, email, social media, analytics, and backups. Here&#x27;s what I learned.</description>
+    </item>
+    <item>
+      <title>When an AI Company Says No to the Pentagon</title>
+      <link>https://www.forestsd.us.com/blog/anthropic-pentagon-blacklist</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/anthropic-pentagon-blacklist</guid>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>Anthropic got blacklisted by the Pentagon for refusing to let their AI be used for autonomous weapons. What this means for every other AI company.</description>
+    </item>
+    <item>
+      <title>AI Search Is Full of Dark Patterns and Nobody&#x27;s Talking About It</title>
+      <link>https://www.forestsd.us.com/blog/ai-search-dark-patterns</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/ai-search-dark-patterns</guid>
+      <pubDate>Mon, 09 Mar 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>AI-powered search is reshaping how we find information. But the incentive structures are creating new dark patterns that make the old SEO spam look quaint.</description>
+    </item>
+    <item>
+      <title>The State of Web Development in 2026: What&#x27;s Changed</title>
+      <link>https://www.forestsd.us.com/blog/web-development-2026</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/web-development-2026</guid>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>Static sites are back, AI writes code now, and performance is everything. A developer&#x27;s honest take on web development in 2026 — what&#x27;s changed, what hasn&#x27;t, and what matters.</description>
+    </item>
+    <item>
+      <title>Why San Diego&#x27;s Tech Scene Is Quietly Exploding</title>
+      <link>https://www.forestsd.us.com/blog/san-diego-tech-scene</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/san-diego-tech-scene</guid>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>San Diego&#x27;s tech ecosystem is booming — biotech, defense tech, AI startups, and a digital scene that rivals bigger cities. A local perspective on why SD is the place to watch.</description>
+    </item>
+    <item>
+      <title>The State of Local SEO in 2026: What Actually Works</title>
+      <link>https://www.forestsd.us.com/blog/local-seo-2026</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/local-seo-2026</guid>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>Practical, no-BS guide to local SEO in 2026. Google AI Overviews, entity optimization, review signals, GBP strategies, and schema markup that actually moves the needle.</description>
     </item>
     <item>
       <title>Entity SEO: The Complete Guide for 2026</title>
-      <link>https://forestsd-site.pages.dev/blog/entity-seo-guide.html</link>
-      <guid isPermaLink="true">https://forestsd-site.pages.dev/blog/entity-seo-guide.html</guid>
-      <pubDate>Tue, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <link>https://www.forestsd.us.com/blog/entity-seo-guide</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/entity-seo-guide</guid>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
       <author>forestsd2026@gmail.com (Forest SD)</author>
       <description>Everything you need to know about entity SEO in 2026. Knowledge Graph optimization, JSON-LD structured data, entity-query overlap, and practical steps for local businesses.</description>
     </item>
     <item>
+      <title>How Digital Natives Are Redefining Creativity in the AI Era</title>
+      <link>https://www.forestsd.us.com/blog/digital-natives-redefining-creativity</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/digital-natives-redefining-creativity</guid>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>A digital native&#x27;s perspective on how AI tools are reshaping creative workflows, blending human intuition with machine capability across content creation, design, and marketing.</description>
+    </item>
+    <item>
       <title>Content Strategy for Small Businesses That Actually Drives Revenue</title>
-      <link>https://forestsd-site.pages.dev/blog/content-strategy-small-business.html</link>
-      <guid isPermaLink="true">https://forestsd-site.pages.dev/blog/content-strategy-small-business.html</guid>
-      <pubDate>Tue, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <link>https://www.forestsd.us.com/blog/content-strategy-small-business</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/content-strategy-small-business</guid>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
       <author>forestsd2026@gmail.com (Forest SD)</author>
       <description>Why most small business blogs fail and what to do instead. Hub-and-spoke content, topical authority, local content strategies, and how to measure content ROI beyond traffic.</description>
     </item>
     <item>
-      <title>The State of Web Development in 2026: What's Changed</title>
-      <link>https://forestsd-site.pages.dev/blog/web-development-2026.html</link>
-      <guid isPermaLink="true">https://forestsd-site.pages.dev/blog/web-development-2026.html</guid>
-      <pubDate>Tue, 18 Feb 2026 00:00:00 GMT</pubDate>
+      <title>AEO: How to Optimize for AI Search Engines</title>
+      <link>https://www.forestsd.us.com/blog/ai-search-optimization</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/ai-search-optimization</guid>
+      <pubDate>Wed, 18 Feb 2026 00:00:00 GMT</pubDate>
       <author>forestsd2026@gmail.com (Forest SD)</author>
-      <description>Static sites are back, AI writes code now, and performance is everything. A developer's honest take on web development in 2026.</description>
-    </item>
-    <item>
-      <title>Why San Diego's Tech Scene Is Quietly Exploding</title>
-      <link>https://forestsd-site.pages.dev/blog/san-diego-tech-scene.html</link>
-      <guid isPermaLink="true">https://forestsd-site.pages.dev/blog/san-diego-tech-scene.html</guid>
-      <pubDate>Tue, 18 Feb 2026 00:00:00 GMT</pubDate>
-      <author>forestsd2026@gmail.com (Forest SD)</author>
-      <description>San Diego's tech ecosystem is booming — biotech, defense tech, AI startups, and a digital scene that rivals bigger cities. A local perspective on why SD is the place to watch.</description>
-    </item>
-    <item>
-      <title>The State of Local SEO in 2026: What Actually Works</title>
-      <link>https://forestsd-site.pages.dev/blog/local-seo-2026.html</link>
-      <guid isPermaLink="true">https://forestsd-site.pages.dev/blog/local-seo-2026.html</guid>
-      <pubDate>Tue, 18 Feb 2026 00:00:00 GMT</pubDate>
-      <author>forestsd2026@gmail.com (Forest SD)</author>
-      <description>A practical look at what's actually moving the needle in local search — from entity optimization and AI Overviews to GBP strategies and schema markup.</description>
-    </item>
-    <item>
-      <title>How Digital Natives Are Redefining Creativity in the AI Era</title>
-      <link>https://forestsd-site.pages.dev/blog/digital-natives-redefining-creativity.html</link>
-      <guid isPermaLink="true">https://forestsd-site.pages.dev/blog/digital-natives-redefining-creativity.html</guid>
-      <pubDate>Tue, 18 Feb 2026 00:00:00 GMT</pubDate>
-      <author>forestsd2026@gmail.com (Forest SD)</author>
-      <description>How growing up with AI as a native tool is changing the creative process — from content creation and design to marketing and beyond.</description>
+      <description>AI Engine Optimization explained. How to get cited by ChatGPT, Perplexity, and Google AI Overviews. Content structure, source selection, and actionable tactics for 2026.</description>
     </item>
   </channel>
 </rss>

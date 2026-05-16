@@ -1,19 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://www.forestsd.us.com/</loc><lastmod>2026-05-16</lastmod><priority>1.0</priority></url>
+  <url><loc>https://www.forestsd.us.com/</loc><lastmod>2026-05-15</lastmod><priority>1.0</priority></url>
   <url><loc>https://www.forestsd.us.com/about</loc><lastmod>2026-03-09</lastmod><priority>0.8</priority></url>
   <url><loc>https://www.forestsd.us.com/portfolio</loc><lastmod>2026-03-09</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.forestsd.us.com/now</loc><lastmod>2026-03-09</lastmod><priority>0.7</priority></url>
   <url><loc>https://www.forestsd.us.com/resources</loc><lastmod>2026-03-09</lastmod><priority>0.6</priority></url>
   <url><loc>https://www.forestsd.us.com/contact</loc><lastmod>2026-03-09</lastmod><priority>0.6</priority></url>
-  <url><loc>https://www.forestsd.us.com/blog/</loc><lastmod>2026-05-16</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/</loc><lastmod>2026-05-15</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/privacy</loc><lastmod>2026-03-09</lastmod><priority>0.3</priority></url>
+  <url><loc>https://www.forestsd.us.com/terms</loc><lastmod>2026-03-09</lastmod><priority>0.3</priority></url>
   <url><loc>https://www.forestsd.us.com/blog/google-ai-search-needs-open-web</loc><lastmod>2026-05-15</lastmod><priority>0.8</priority></url>
   <url><loc>https://www.forestsd.us.com/blog/digg-ai-reboot-x-signal</loc><lastmod>2026-05-12</lastmod><priority>0.8</priority></url>
   <url><loc>https://www.forestsd.us.com/blog/any-lawful-use-is-not-an-ai-safety-policy</loc><lastmod>2026-04-28</lastmod><priority>0.8</priority></url>
   <url><loc>https://www.forestsd.us.com/blog/most-important-ai-release-was-a-postmortem</loc><lastmod>2026-04-24</lastmod><priority>0.8</priority></url>
   <url><loc>https://www.forestsd.us.com/blog/apple-picked-hardware-over-ai-hype</loc><lastmod>2026-04-21</lastmod><priority>0.8</priority></url>
   <url><loc>https://www.forestsd.us.com/blog/claude-design-mockup-layer-cheap</loc><lastmod>2026-04-17</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/wordpress-plugin-supply-chain-seo-spam</loc><lastmod>2026-04-14</lastmod><priority>0.8</priority></url>
   <url><loc>https://www.forestsd.us.com/blog/topical-aeo-seo-2026</loc><lastmod>2026-04-14</lastmod><priority>0.8</priority></url>
-  <url><loc>https://www.forestsd.us.com/privacy</loc><lastmod>2026-03-09</lastmod><priority>0.3</priority></url>
-  <url><loc>https://www.forestsd.us.com/terms</loc><lastmod>2026-03-09</lastmod><priority>0.3</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/meta-muse-spark-superintelligence-gamble</loc><lastmod>2026-04-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/ai-code-overload-review-crisis</loc><lastmod>2026-04-07</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/anthropic-mythos-leak-cybersecurity</loc><lastmod>2026-03-31</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/openai-superapp-acquisition-spree</loc><lastmod>2026-03-27</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/perplexity-computer-always-on-ai</loc><lastmod>2026-03-24</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/britannica-sues-openai-rag</loc><lastmod>2026-03-20</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/nvidia-gtc-2026-nemoclaw</loc><lastmod>2026-03-17</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/ai-layoffs-are-here</loc><lastmod>2026-03-10</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/automated-my-entire-workflow</loc><lastmod>2026-03-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/anthropic-pentagon-blacklist</loc><lastmod>2026-03-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/ai-search-dark-patterns</loc><lastmod>2026-03-09</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/web-development-2026</loc><lastmod>2026-02-18</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/san-diego-tech-scene</loc><lastmod>2026-02-18</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/local-seo-2026</loc><lastmod>2026-02-18</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/entity-seo-guide</loc><lastmod>2026-02-18</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/digital-natives-redefining-creativity</loc><lastmod>2026-02-18</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/content-strategy-small-business</loc><lastmod>2026-02-18</lastmod><priority>0.8</priority></url>
+  <url><loc>https://www.forestsd.us.com/blog/ai-search-optimization</loc><lastmod>2026-02-18</lastmod><priority>0.8</priority></url>
 </urlset>
