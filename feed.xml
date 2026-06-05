@@ -5,8 +5,16 @@
     <link>https://www.forestsd.us.com/blog/</link>
     <description>Thoughts on technology, SEO, digital marketing, and life as a digital native in San Diego.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 05 Jun 2026 05:04:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 05 Jun 2026 17:00:00 GMT</lastBuildDate>
     <atom:link href="https://www.forestsd.us.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Meta Did Not Automate Support. It Automated Account Takeover.</title>
+      <link>https://www.forestsd.us.com/blog/meta-did-not-automate-support-it-automated-account-takeover</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/meta-did-not-automate-support-it-automated-account-takeover</guid>
+      <pubDate>Fri, 05 Jun 2026 00:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>Meta's AI support bot let attackers walk through Instagram account recovery by chat. That is not an AI glitch. It is a permissions failure dressed up as automation.</description>
+    </item>
     <item>
       <title>Bots Passed Humans Online. The Web Was Not Built for This.</title>
       <link>https://www.forestsd.us.com/blog/bots-passed-humans-online-web-not-built-for-this</link>
