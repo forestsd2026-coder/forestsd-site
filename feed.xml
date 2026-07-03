@@ -5,8 +5,16 @@
     <link>https://www.forestsd.us.com/blog/</link>
     <description>Thoughts on technology, SEO, digital marketing, and life as a digital native in San Diego.</description>
     <language>en-us</language>
-    <lastBuildDate>Tue, 30 Jun 2026 17:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Fri, 03 Jul 2026 17:00:00 GMT</lastBuildDate>
     <atom:link href="https://www.forestsd.us.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Cloudflare Just Told AI Crawlers to Pick a Job</title>
+      <link>https://www.forestsd.us.com/blog/cloudflare-told-ai-crawlers-pick-a-job</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/cloudflare-told-ai-crawlers-pick-a-job</guid>
+      <pubDate>Fri, 03 Jul 2026 17:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>Cloudflare's July 1 crawler changes and September 15 deadline matter because the all-purpose AI bot was never neutral. Search, training, and agents need different deals.</description>
+    </item>
     <item>
       <title>Google Made AI Image Generation a Profile Product</title>
       <link>https://www.forestsd.us.com/blog/google-made-ai-image-generation-a-profile-product</link>
@@ -14,6 +22,14 @@
       <pubDate>Tue, 30 Jun 2026 17:00:00 GMT</pubDate>
       <author>forestsd2026@gmail.com (Forest SD)</author>
       <description>Google's June 29 personalized Gemini rollout and June 30 Nano Banana rollout show the next consumer AI moat isn't prompt tricks. It's profile-based generation built on your photos, taste, and context.</description>
+    </item>
+    <item>
+      <title>Google Turned Search Into an AI Intake Funnel</title>
+      <link>https://www.forestsd.us.com/blog/google-turned-search-into-an-ai-intake-funnel</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/google-turned-search-into-an-ai-intake-funnel</guid>
+      <pubDate>Fri, 26 Jun 2026 17:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>Google's new Search Services History and Save Media controls are not just a convenience feature. They are a cleaner default pipeline for feeding photos, audio, files, and other ordinary search inputs into AI systems.</description>
     </item>
     <item>
       <title>Cloudflare Just Gave AI Agents Burner Accounts</title>
