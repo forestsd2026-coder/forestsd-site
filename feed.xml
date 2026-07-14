@@ -5,8 +5,16 @@
     <link>https://www.forestsd.us.com/blog/</link>
     <description>Thoughts on technology, SEO, digital marketing, and life as a digital native in San Diego.</description>
     <language>en-us</language>
-    <lastBuildDate>Fri, 10 Jul 2026 17:00:00 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 17:00:00 GMT</lastBuildDate>
     <atom:link href="https://www.forestsd.us.com/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>The Agentic Internet Is a Free-Rider Economy</title>
+      <link>https://www.forestsd.us.com/blog/agentic-internet-free-rider-economy</link>
+      <guid isPermaLink="true">https://www.forestsd.us.com/blog/agentic-internet-free-rider-economy</guid>
+      <pubDate>Tue, 14 Jul 2026 17:00:00 GMT</pubDate>
+      <author>forestsd2026@gmail.com (Forest SD)</author>
+      <description>Cloudflare's July 13 data shows AI training now drives most crawler activity while publishers absorb the cost and lose the referral traffic. The web is being asked to fund its own replacement.</description>
+    </item>
     <item>
       <title>OpenAI Turned ChatGPT Into a Work Operating System</title>
       <link>https://www.forestsd.us.com/blog/openai-turned-chatgpt-into-work-operating-system</link>
